@@ -29,23 +29,23 @@ public class Main_second {
             int choice = reader.nextInt();
 
             if (choice == 1) {
-                newCalculator.setNumberA(insertNumber());
-                newCalculator.setNumberB(insertNumber());
+                newCalculator.numberA=insertNumber();
+                newCalculator.numberB=insertNumber();
 
                 printText("The result is: " + newCalculator.addition());
             } else if (choice == 2){
-                newCalculator.setNumberA(insertNumber());
-                newCalculator.setNumberB(insertNumber());
+                newCalculator.numberA=insertNumber();
+                newCalculator.numberB=insertNumber();
 
                 printText("The result is: " + newCalculator.subtraction());
             } else if (choice == 3){
-                newCalculator.setNumberA(insertNumber());
-                newCalculator.setNumberB(insertNumber());
+                newCalculator.numberA=insertNumber();
+                newCalculator.numberB=insertNumber();
 
                 printText("The result is: " + newCalculator.multiplication());
             }else if(choice == 4){
-                newCalculator.setNumberA(insertNumber());
-                newCalculator.setNumberB(insertNumber());
+                newCalculator.numberA=insertNumber();
+                newCalculator.numberB=insertNumber();
 
                 printText("The result is: " + newCalculator.division());
             }else if(choice==5){
