@@ -2,7 +2,7 @@ package Lesson11_OOP;
 
 import java.util.ArrayList;
 
-public class Calculator<piNumber> {
+public class Calculator {
     int numberA;
     int numberB;
     int[] arrayOfNumbers;
